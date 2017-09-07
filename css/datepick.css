@@ -1,0 +1,53 @@
+.dp-calendar {
+    position: absolute;
+    width: 20%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.dp-calendar .dp-month-year-row {
+    text-align: center;
+    padding: 5px;
+}
+
+.dp-calendar .dp-month-year-row span.left {
+    float: left;
+    cursor: pointer;
+}
+
+.dp-calendar .dp-month-year-row span.right {
+    float: right;
+    cursor: pointer;
+}
+
+.dp-calendar .dp-month-year-row select {
+    border: none;
+    font-weight: 700;
+}
+
+.dp-calendar .dp-days-row {
+    text-align: center;
+}
+
+.dp-calendar .dp-date-row {
+    text-align: center;
+}
+
+.dp-calendar table {
+    margin: 0 auto;
+}
+
+.dp-calendar table td:hover {
+    background-color: slateblue;
+    color: #fff;
+}
+
+.dp-calendar table td, .dp-calendar table th {
+    padding: 5px 5px;
+    cursor: pointer;
+    background-color: #efefef;
+}
+
+.dp-calendar table th {
+    cursor: auto;
+}
